@@ -53,19 +53,12 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.all(15),
                 // padding: EdgeInsets.all(15),
                 color: Colors.white,
-                child: Row(
-                  children: [
-                    // Padding(padding: EdgeInsets.fromLTRB(0, 25, 25, 25)),
-                    Icon(Icons.email, color: Colors.deepPurple),
-                    SizedBox(width: 10.0),
-                    Text(
-                      'anaswara123@gmail.com',
-                      style: TextStyle(
-                        fontSize: 20.0,
-                        color: Colors.deepPurple,
-                      ),
-                    ),
-                  ],
+                child: ListTile(
+                  leading: Icon(Icons.email, color: Colors.deepPurple),
+                  title: Text(
+                    'anaswara123@gmail.com',
+                    style: TextStyle(fontSize: 20.0, color: Colors.deepPurple),
+                  ),
                 ),
               ),
             ],
@@ -75,20 +68,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-
-
-// Row(
-//                   children: [
-//                     // Padding(padding: EdgeInsets.fromLTRB(0, 25, 25, 25)),
-//                     Icon(Icons.email, color: Colors.deepPurple),
-//                     SizedBox(width: 10.0),
-//                     Text(
-//                       'anaswara123@gmail.com',
-//                       style: TextStyle(
-//                         fontSize: 20.0,
-//                         color: Colors.deepPurple,
-//                       ),
-//                     ),
-//                   ],
-//                 ),
