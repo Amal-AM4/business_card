@@ -1,16 +1,13 @@
 # business_card
 
-A new Flutter project.
+A simple Flutter project that helped me understand the **basic concepts of widgets** and how to use them in building a UI.
+
+## 📱 Screenshot
+
+<img src="screenshots/Screenshot_1748442724.png" alt="Business Card App Screenshot" width="300"/>
+
+> *(Make sure you add the image `business_card.png` inside a `screenshots` folder in your project directory.)*
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is a starting point for learning Flutter.
